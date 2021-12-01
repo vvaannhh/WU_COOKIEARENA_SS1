@@ -202,7 +202,7 @@ Tuy nhiên, Gà đã quên cổng kết nối vào máy chủ. Chỉ nhớ mang 
 ``` Gà đã quên cổng kết nối vào máy chủ```
 => Đầu tiên mình phải đi tìm port của chall này.
 - Sử dụng ```nmap``` để kiểm tra:
-![](Files/16.png)
+> ![](Files/16.png)
 - Sau khi thử từng port thì ``` 9003``` là port của chall này.\
 - Netcat đến địa chỉ ,trả lời các câu hỏi và nhận flag.
 >![](Files/17.png)
