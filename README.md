@@ -27,7 +27,7 @@ Hãy giúp Gà giải mật thư này!
 - Từ đề bài => Caecar cipher
 - Decode bằng trang:
 https://www.dcode.fr/caesar-cipher
-![](Files/2.png)
+> ![](Files/2.png)
 - Flag{El_Clasico_Cipher}
 ### Sixty Four
 #### Challenge
@@ -48,9 +48,9 @@ Lỗ hổng này nguy hiểm tới mức cho phép các h@cker lấy quyền qu�
 #### Solution
 - Từ đề bài thì đây là lỗ hổng SQL.
 - Sau khi tìm hiểu trên [wiki](https://en.wikipedia.org/wiki/SQL_injection) thì mình tìm được:
-![](Files/3.png)
+> ![](Files/3.png)
 - Sau khi nhập username và password là: ' OR '1'='1' -- 
-![](Files/4.png)
+> ![](Files/4.png)
 - Decode đoạn "RmxhZ3tGcjMzX1N0eWwzfQ==" thì nhận được flag.
 - Flag{Fr33_Styl3}
 ### Gatling gun
@@ -61,12 +61,12 @@ Nếu bạn muốn nghịch súng với Mèo thì hãy đi nhặt đạn ở tro
 ---
 #### Solution
 - Để nhặt đạn thì ta phải vào Github của Cookie Hân Hoan
-![](Files/5.png)
+> ![](Files/5.png)
 - Và mình thấy được 3 file ứng với 3 trưởng cần điền của bài.
 - Tiếp theo thì mình sẽ mở burpsuite, nạp đạn cho 3 khẩu súng và sấy thôi
-![](Files/6.png)
+> ![](Files/6.png)
 - Sau khi bắn vài phút thì flag cũng đã xuất hiện
-![](Files/7.png)
+> ![](Files/7.png)
 - FLAG{e6c068faf9241fe9d1f2000516718377}
 ### The maze runner
 #### Challenge
@@ -86,7 +86,7 @@ Hazy gửi cho Gà một thông điệp bí mật, kèm một lời nhắn "Đ�
 ---
 #### Solution
 - Từ dữ kiện bài cho mình biết được bài này sử dụng audacity để xem flag bị giấu trong file âm thanh.
-![](Files/8.png)
+> ![](Files/8.png)
 - Flag{No_Bullets_for_Player_001}
 ### Basic Image
 #### Challenge
