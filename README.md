@@ -2,7 +2,8 @@
 ## Cryptography
 ### XOR
 #### Challenge
-[File_1](encrypt.py) [File_2](cipher.txt)
+[File_1](encrypt.py) 
+[File_2](cipher.txt)
 ---
 #### Solution
 - Đề cung cấp cho mình 1 bản cipher và 1 bản encrypt để decrypt cipher ra plan text.
@@ -10,7 +11,8 @@
 ### MORSE
 #### Challenge
 > Suỵt! Tập trung và đeo tai nghe lên nào. Gà có nghe thấy nhịp beat không? Họ nói gì từ bên kia chiến tuyến Format: Flag{what_you_find}
-> [File](cipher.wav)
+
+[File](cipher.wav)
 ---
 #### Solution
 - Bài này đơn giản là mình sẽ phải decode đoạn âm thanh morse và mình đã dùng web có sẵn:
@@ -20,6 +22,7 @@
 #### Challenge
 > Vô tình khi khai quật khảo cổ, Gà tìm được một thông điệp bí ẩn khoảng hơn 100 năm trước công nguyên. Nghe đồn đây là một bí thuật đã bị thay đổi công thức của một vị tướng Julius Caesar, sau này trở thành vị vua đầu tiên của đế chế La Mã hùng mạnh.
 > Hãy giúp Gà giải mật thư này!
+
 [File](caesar.txt)
 ---
 #### Solution
@@ -31,6 +34,7 @@
 ### Sixty Four
 #### Challenge
 > Gà để lại một thông điệp bí mật nhưng nó không làm khó được trí thông minh của Mèo Yang Hồ.
+
 [File](cipher1.txt)
 - Từ đề bài => 64 => Base 64
 - Sau khi decode đoạn base 64 mình nhận được đoạn mã hex.
@@ -81,6 +85,7 @@ http://chal10.web.letspentest.org/
 ### AudiCaty
 #### Challenge
 > Hazy gửi cho Gà một thông điệp bí mật, kèm một lời nhắn "Đừng vội vàng kết luận môt vấn đề, luôn phải để mắt thấy tai nghe"
+
 [File](squitgaem.wav)
 ---
 #### Solution
@@ -101,6 +106,7 @@ http://chal10.web.letspentest.org/
 ### ExSeller
 #### Challenge
 > Để không bị Mèo nhòm ngó tệp tài liệu quan trọng. Gà nhanh tay đặt mật khẩu, nhưng lại vô tình quên mất. Làm thế nào bây giờ T_T
+
 [File](bruteme.xlsx)
 ---
 #### Solution
@@ -111,7 +117,8 @@ http://chal10.web.letspentest.org/
 ### Streamer
 #### Challenge
 > Anh nghệ sĩ nhiều đam mê đang vớt rác bên tàu. Ta lang thang với bản vẽ đời ta tự tô màu.
-Ô! Vớt được cái gì thú zị này!
+> Ô! Vớt được cái gì thú zị này!
+
 [File](travis.pcapng)
 ---
 #### Solution
@@ -125,6 +132,7 @@ http://chal10.web.letspentest.org/
 #### Challenge
 > Rối loạn tiền đình là bệnh lý gây ra trạng thái mất cân bằng về tư thế, khiến người bệnh thường xuyên bị chóng mặt, hoa mắt, ù tai, đi đứng lảo đảo.
 Nhưng sự thật não bạn đang muốn nhảy như điệu tanggo Khoan, dừng khoảng chừng là 2 giây!
+
 [File](cooooooooooookie.gif)
 ---
 #### Solution
@@ -153,6 +161,7 @@ https://github.com/
 > Gà và Mèo Yang Hồ đã cùng nhau thoát khỏi trọng lực, lẩn trốn loài người tại một hành tinh đày đất đá, và một khí quyển mỏng.
 Vượt qua chặng đường 472 triệu km trong 7 tháng, đây là bức ảnh đầu tiên họ gửi về trái đất.
 Bạn có giải mã được những tín hiệu này không?
+
 [File](ufo.wav)
 ---
 #### Solution
