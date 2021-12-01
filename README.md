@@ -46,7 +46,8 @@
 > Đây là một lỗ hổng rất cơ bản nhưng lại dễ dàng bị bỏ qua trong quá trình phát triển ứng dụng.
 Lỗ hổng này nguy hiểm tới mức cho phép các h@cker lấy quyền quản trị của website, thay đổi nội dung, lợi dụng để ăn cắp các thông tin nhạy cảm, hoặc thậm chí làm bàn đạp tấn công chiếm quyền quản trị toàn hệ thống.
 Đây là phương thức tấn công yêu thích của Hacker khi lần đầu tiếp cận với website của bạn.
-http://chal13.web.letspentest.org/
+
+> http://chal13.web.letspentest.org/
 ---
 #### Solution
 - Từ đề bài thì đây là lỗ hổng SQL.
@@ -60,7 +61,8 @@ http://chal13.web.letspentest.org/
 #### Challenge
 > Với chiếc Gatling gun mạnh mẽ trong tay, Mèo Yang Hồ có thể vượt qua bất kì cánh cửa bảo mật nào. Nhưng thật buồn cười là trong tay hắn lại không có một viên đạn nào.
 Nếu bạn muốn nghịch súng với Mèo thì hãy đi nhặt đạn ở trong Github của Cookie Hân Hoan nhé.
-http://chal9.web.letspentest.org/
+
+> http://chal9.web.letspentest.org/
 ---
 #### Solution
 - Để nhặt đạn thì ta phải vào Github của Cookie Hân Hoan
@@ -75,7 +77,8 @@ http://chal9.web.letspentest.org/
 #### Challenge
 > Lạc vào một mê cung với vô vàn những chuỗi kí tự bí ẩn. Vừa chạy vừa phải nghĩ đâu mới manh mối giúp Gà thoát ra.
 Hãy giúp Gà một tay nhé?
-http://chal10.web.letspentest.org/
+
+> http://chal10.web.letspentest.org/
 ---
 #### Solution
 - Bài này thì mình mở từng file để check thôi =))
@@ -95,6 +98,7 @@ http://chal10.web.letspentest.org/
 ### Basic Image
 #### Challenge
 > Đố bạn biết bức ảnh này được nhắc tới bài viết nào trên Fanpage của Cookie Hân Hoan ấy. Hehe!
+> 
 > https://www.facebook.com/cookie.han.hoan/
 ![](FILES/KB.jpg)
 ---
@@ -144,7 +148,8 @@ Nhưng sự thật não bạn đang muốn nhảy như điệu tanggo Khoan, d�
 ### Github
 #### Challenge
 > Được biết tới như một kho lưu trữ mã nguồn khổng lồ của thế giới, và những thay đổi trong quá khứ đều được lưu lại và khôi phục. Hãy kiếm tìm những bí mật mà Gà con lon ton vô tình để lại.
-https://github.com/
+>
+> https://github.com/
 ---
 #### Solution
 - Để ý ở đề bài:
@@ -172,7 +177,8 @@ Bạn có giải mã được những tín hiệu này không?
 #### Challenge
 > The true forenSeek
 Giữ nguyên hiện trường là việc cần thiết trong quá trình điều tra số. Một trong những file lưu trữ hình ảnh của RAM trong quá trình làm đề thi được leak ra cho các chiến binh. Cho mình thấy các cậu tìm được gì nào :)
-https://drive.google.com/file/d/1PMbu0KbORvRD7Sp2-V-2e-97YIJUY86p/view?usp=sharing
+
+> https://drive.google.com/file/d/1PMbu0KbORvRD7Sp2-V-2e-97YIJUY86p/view?usp=sharing
 ---
 #### Solution
 - Mình khá bất ngờ vì bài này có thể lấy flag đơn giản bằng việc ném file raw vào HxD và tìm flag.
@@ -203,7 +209,8 @@ network.letspentest.org 9002
 > Hãy tham gia đấu trường Cookie phiên bản nhanh như chớp. Gà phải chọn ra đáp án đúng trong thời gian nhanh nhất.
 Giao thức TCP sẽ giúp các câu trả lời của Gà luôn được đảm bảo gửi đến máy chủ của Cookie Arena mà không bị rơi rớt một từ nào.
 Tuy nhiên, Gà đã quên cổng kết nối vào máy chủ. Chỉ nhớ mang máng là nó giống với thử thách "Scan me if you can"
-network.letspentest.org
+
+> network.letspentest.org
 ---
 #### Solution
 ``` Gà đã quên cổng kết nối vào máy chủ```
@@ -222,7 +229,8 @@ Trên Internet mọi máy tính, máy chủ, các thiết bị mạng được k
 Đến mật khẩu 6 kí tự bạn còn không nhớ nổi, vì thế năm 1984 DNS (Domain Name System) được phát minh để giúp bạn kết nối với nhau bằng tên gọi.
 Bạn chỉ cần nhớ letspentest.org thay vì những dãy số khô khan và kì quặc. Khi vừa Enter, hệ thống DNS bắt đầu hoạt động, nó như tấm bản đồ để chỉ cho bạn biết "Hey, cái tên miền của Cookie có địa chỉ IP là X.X.X.X, hãy tới đó mà lấy thông tin đê". DNS cũng trả lời cho bạn biết "X.X.X.X có phải địa chỉ nhà Cookie Hân Hoan hay không"
 DNS cũng chứa các thông tin khác, nó gọi là các bản ghi (Record). Bạn thử tìm xem domain này còn có những bản ghi nào chứa những điều kì quặc không?
-letspentest.org
+
+> letspentest.org
 ---
 #### Solution
 - Nhiệm vụ của mình là lấy record của ```letspentest.org```
@@ -236,7 +244,7 @@ letspentest.org
 Trong quá trình tìm kiếm lỗ hổng, Hazy thường xem xét ngôi nhà này có bao nhiêu cánh cửa đang mở (Port). Hãy sử dụng công cụ thân quen để "ném đá" vào tất cả các cánh cửa của ngôi nhà.
 Biết rằng, cửa sổ được đánh số từ 8100 tới 9100
 Dựa vào sự phản hồi bạn sẽ biết được những điều thú vị!
-network-insecure.letspentest.org
+> network-insecure.letspentest.org
 ---
 #### Solution
 - Đầu tiên mình sử dụng nmap để quét port của địa chỉ được cung cấp và port nằm trong khoảng ```8100 -> 9100``` nên mình xác định được port của địa chỉ này là ```9003```
@@ -250,7 +258,8 @@ network-insecure.letspentest.org
 #### Challenge
 > HTTP và HTTPS đều là hai giao thức giúp trình duyệt của bạn truy cập, tương tác với các trang Web. Tuy nhiên khi sử dụng giao thức HTTP để truy cập Web ở một quán cà phê hay trong cùng một khu trọ thì tất cả các nội dung trao đổi nhạy cảm, cũng như mật khẩu của bạn trên Web đều có thể nghe lén.
 Còn HTTPS (chữ S có nghĩa là Secure - Bảo mật) sinh ra để mã hóa dữ liệu trong quá trình trao đổi giữa trình duyệt và máy chủ bằng một chiếc Chứng chỉ (Certificate)
-network-insecure.letspentest.org 9004
+
+> network-insecure.letspentest.org 9004
 ---
 #### Solution
 - Mình giải được bài này sau khi tìm hiểu về ```Secure SSL connections with Ncat```:https://dev.nmap.narkive.com/uTngHJ9O/secure-ssl-connections-with-ncat
@@ -280,7 +289,8 @@ http://chal5.web.letspentest.org/
 > Để nhiều loại Trình duyệt và Web Server có thể nói chuyện và hiểu được nhau thì họ phải sử dụng chung một giao thức có tên gọi là HTTP Protocol. Khi người dùng bắt đầu truy cập Web, trình duyệt sẽ chuyển những hành động của họ thành yêu cầu (Request) tới Web Server. Còn Web Server sẽ trả lời (Response) xem có thể đáp ứng hay từ chối cung cấp thông tin cho trình duyệt.
 Ví dụ, bạn Gà muốn LẤY danh sách các thử thách trong cookiearena<chấm>org, ở đường dẫn /challenges bằng TRÌNH DUYỆT Chrome. Trình duyệt của Gà sẽ phải điền vào một cái form mẫu có tên gọi là HTTP Header và gửi đi. Mỗi yêu cầu sẽ được viết trên một dòng, và nội dung của mỗi yêu cầu sẽ phải viết đằng sau dấu hai chấm.
 Hãy đoán xem trong thử thách này có những Header thú vị nào nha
-http://chal3.web.letspentest.org/
+
+> http://chal3.web.letspentest.org/
 ---
 #### Solution
 - Sau khi truy cập link được cấp, mình kiểm tra source web và thấy gợi ý ``` Basic Authentication Credential: gaconlonton/cookiehanhoan ```
@@ -293,7 +303,8 @@ http://chal3.web.letspentest.org/
 #### Challenge
 > Sau nhiều đêm suy nghĩ về việc làm thế nào để bảo vệ mã nguồn. Cố gắng thoát khỏi ánh mắt soi mói của Mèo Yang Hồ.
 Gà chẹp miệng rồi nói: "Đã tới lúc phải cho nó phải thốt lên rằng! WTF!!!"
-http://chal4.web.letspentest.org/
+
+> http://chal4.web.letspentest.org/
 ---
 #### Solution
 - Đầu tiên mình đã mở source để xem có đoạn code nào check các trường cần điền và mình thấy có 4 file js được encode bằng JSFuck.
@@ -319,7 +330,8 @@ http://chal4.web.letspentest.org/
 ### Impossible
 #### Challenge
 > Học lỏm được công thức chế tạo lá chắn tàng hình của Hazy. Gà nhanh chóng đem về xây dựng hệ thống phòng thủ của riêng mình. Liệu nó có làm khó được Mèo Yang Hồ không?
-http://chal7.web.letspentest.org/
+> 
+> http://chal7.web.letspentest.org/
 ---
 #### Solution
 - Trước hết, vào source xem và tìm thấy 1 hàm xử lý pass:
@@ -341,7 +353,8 @@ function checkPass()
 ### Infinite Loop
 #### Challenge
 > Cuộc đời luôn là vậy. Một giây trước tưởng đã cùng đường, một giây sau có lại đầy hy vọng. Các chiến binh đã có công cụ mạnh mẽ trong tay, hãy dùng nó để can thiệp dòng chảy.
-http://chal6.web.letspentest.org/
+> 
+> http://chal6.web.letspentest.org/
 ---
 #### Solution
 - Cũng như những bài trước mình thử check source nhưng lần này không có gì khả nghi.
@@ -353,7 +366,8 @@ http://chal6.web.letspentest.org/
 ### I am not a robot
 #### Challenge
 > Nếu là người thì cho xem tai, còn nếu là robot thì đứng ở ngoài. Bạn đã bị chặn
-http://chal2.web.letspentest.org/
+> 
+> http://chal2.web.letspentest.org/
 ---
 #### Solution
 - Từ đề bài mình thử truy cập ```http://chal2.web.letspentest.org/robots.txt```
@@ -364,7 +378,8 @@ http://chal2.web.letspentest.org/
 ### Sause
 #### Challenge
 > Trình duyệt đang rất vất vả để chuyển đổi các đoạn mã thành hình ảnh và màu sắc. Hãy trải nghiệm góc nhìn của trình duyệt nhé!
-http://chal1.web.letspentest.org/
+> 
+> http://chal1.web.letspentest.org/
 ---
 #### Solution
 - Đơn giản là mình chỉ cần mở source lên và flag sẽ xuất hiện.
